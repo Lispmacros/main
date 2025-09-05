@@ -1,5 +1,5 @@
 ﻿# github-realtime-sync.ps1
-$LocalRepo = "D:\git"  # Ваша папка для синхронизации
+$LocalRepo = "D:\SERVER"  # Ваша папка для синхронизации
 
 # Проверяем доступность GitHub CLI
 if (-not (Get-Command "gh" -ErrorAction SilentlyContinue)) {
