@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<FavoriteAndLastInserted xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FavoriteEquipmentArticles />
+  <LastEquipment>
+    <SerializableItem>
+      <LibId>110</LibId>
+      <Article />
+      <MountingHeight>1.5</MountingHeight>
+      <CableHeight>2.4</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T12:07:26.2133544+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>true</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>28</LibId>
+      <Article />
+      <MountingHeight>1</MountingHeight>
+      <CableHeight>1</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T12:01:31.4491071+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>false</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>678</LibId>
+      <Article />
+      <MountingHeight>1.5</MountingHeight>
+      <CableHeight>1.5</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T11:57:42.6229855+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>false</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>1008</LibId>
+      <Article>RBZ-377219</Article>
+      <MountingHeight>1.5</MountingHeight>
+      <CableHeight>1.5</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T11:55:55.3585032+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>false</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>2</LibId>
+      <Article>RBZ-319538</Article>
+      <MountingHeight>1.5</MountingHeight>
+      <CableHeight>1.5</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T11:55:15.6544119+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>false</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>26</LibId>
+      <Article>RBZ-319531</Article>
+      <MountingHeight>1.5</MountingHeight>
+      <CableHeight>1.5</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T11:54:46.6738119+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>false</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>10010</LibId>
+      <Article />
+      <FittingsComboBox />
+      <FittingsInfoText>Узел 2</FittingsInfoText>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T11:51:42.9062272+03:00</InsertTime>
+      <EnableCustomDescr>false</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>2299</LibId>
+      <Article />
+      <MountingHeight>1.5</MountingHeight>
+      <CableHeight>1.5</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T11:50:16.9683229+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>false</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>109</LibId>
+      <Article>RBZ-340276</Article>
+      <MountingHeight>1.5</MountingHeight>
+      <CableHeight>2.4</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T11:27:08.8544201+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>true</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>171</LibId>
+      <Article>RBZ-226684</Article>
+      <MountingHeight>2.4</MountingHeight>
+      <CableHeight>2.4</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T11:22:02.0710057+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>false</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>108</LibId>
+      <Article>RBZ-340302</Article>
+      <MountingHeight>1.5</MountingHeight>
+      <CableHeight>2.4</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T11:15:58.7953852+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>false</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>991</LibId>
+      <Article>RBZ-337423</Article>
+      <MountingHeight>1.5</MountingHeight>
+      <CableHeight>2.4</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T11:14:24.0660313+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>true</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>998</LibId>
+      <Article>RBZ-337438</Article>
+      <MountingHeight>1.5</MountingHeight>
+      <CableHeight>2.4</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T11:13:39.7898695+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>true</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+    <SerializableItem>
+      <LibId>989</LibId>
+      <Article>RBZ-337436</Article>
+      <MountingHeight>1.5</MountingHeight>
+      <CableHeight>2.4</CableHeight>
+      <Power>0</Power>
+      <BgNoise>0</BgNoise>
+      <SplReserve>0</SplReserve>
+      <InsertTime>2025-08-26T11:13:15.1033545+03:00</InsertTime>
+      <CustomDescr />
+      <EnableCustomDescr>true</EnableCustomDescr>
+      <EnableFireZoneExtend>false</EnableFireZoneExtend>
+      <IsFixIsolatorAddr>false</IsFixIsolatorAddr>
+      <ZkpsMaskBuildNum />
+      <ZkpsMaskFloorNum />
+      <ZkpsMaskGroupNum />
+      <IsFireZoneExtended>false</IsFireZoneExtended>
+    </SerializableItem>
+  </LastEquipment>
+  <LastInsertedItemLibId>110</LastInsertedItemLibId>
+  <IsFavorite>false</IsFavorite>
+  <IsObsolete>false</IsObsolete>
+</FavoriteAndLastInserted>

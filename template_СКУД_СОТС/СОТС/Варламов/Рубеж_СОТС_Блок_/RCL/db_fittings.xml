@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentList version="3.4">
+  <Equipment uid="10000" article="" cvt_article="$$$20000" idCat="10000" type="box" manufacturer="" positType="incr" positText="XD" name="Коробка" ugoName="RC-UGO-BOX" blckOptGrpId="Group_10000"/>
+  <Equipment uid="10001" article="" cvt_article="$$$20001" idCat="200" type="riser" brand="Стояк" positType="none" name="Стояк" ugoName="RC-UGO-RISER" blckOptGrpId="Group_10001" />
+  <Equipment uid="10002" article="" cvt_article="$$$20002" idCat="200" type="riser" brand="Стояк снизу" positType="none" name="Стояк" ugoName="RC-UGO-RISER-01" blckOptGrpId="Group_10002" />
+  <Equipment uid="10003" article="" cvt_article="$$$20003" idCat="200" type="riser" brand="Стояк снизу вверх" positType="none" name="Стояк" ugoName="RC-UGO-RISER-02" blckOptGrpId="Group_10003" />
+  <Equipment uid="10004" article="" cvt_article="$$$20004" idCat="200" type="riser" brand="Стояк вверх" positType="none" name="Стояк" ugoName="RC-UGO-RISER-03" blckOptGrpId="Group_10004" />
+  <Equipment uid="10005" article="" cvt_article="$$$20005" idCat="200" type="riser" brand="Стояк вниз" positType="none" name="Стояк" ugoName="RC-UGO-RISER-04" blckOptGrpId="Group_10005" />
+  <Equipment uid="10006" article="" cvt_article="$$$20006" idCat="200" type="riser" brand="Стояк сверху вниз" positType="none" name="Стояк" ugoName="RC-UGO-RISER-05" blckOptGrpId="Group_10006" />
+  <Equipment uid="10007" article="" cvt_article="$$$20007" idCat="200" type="riser" brand="Стояк сверху" positType="none" name="Стояк" ugoName="RC-UGO-RISER-06" blckOptGrpId="Group_10007" />
+  <Equipment uid="10008" article="" cvt_article="$$$20008" idCat="200" type="riser" brand="Стояк вверх и вниз" positType="none" name="Стояк" ugoName="RC-UGO-RISER-07" blckOptGrpId="Group_10008" />
+  <Equipment uid="10009" article="" cvt_article="$$$20010" idCat="201" type="break" brand="Разрыв" positType="none" name="Разрыв" ugoName="RC-UGO-BREAK" blckOptGrpId="Group_10009" />
+  <Equipment uid="10010" article="" cvt_article="$$$20011" idCat="202" type="unit" brand="Узел" positType="incr" name="Узел" ugoName="RC-UGO-UNIT-01" blckOptGrpId="Group_10010" />
+</EquipmentList>

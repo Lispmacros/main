@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ID>45dcddc9-d318-43d3-85d3-c80ab1cfe6de</ID>
+  <HasRVi>false</HasRVi>
+  <HasSonar>false</HasSonar>
+  <HasStrazh>false</HasStrazh>
+  <IsGlobal>false</IsGlobal>
+  <IsRubezh>true</IsRubezh>
+  <ProjectFolderPath>Z:\104_СЦ_М4 Дон Домодедовский\14_СОТС\Рубеж Блок3-4</ProjectFolderPath>
+  <ProjectName>Рубеж Блок3-4</ProjectName>
+  <DwgFiles>
+    <ProjectFile>
+      <FileName>000.dwg</FileName>
+      <DrawingRatioFrom>1</DrawingRatioFrom>
+      <PrintRatioFrom>1</PrintRatioFrom>
+      <DrawingRatioTo>1</DrawingRatioTo>
+      <PrintRatioTo>200</PrintRatioTo>
+      <IsSelected>false</IsSelected>
+      <Id>-868607256</Id>
+      <IsDwgNew>true</IsDwgNew>
+      <AddToProjDate>2025-08-26T11:03:18.2385544+03:00</AddToProjDate>
+    </ProjectFile>
+    <ProjectFile>
+      <FileName>PDF_Листы.dwg</FileName>
+      <DrawingRatioFrom>1</DrawingRatioFrom>
+      <PrintRatioFrom>1</PrintRatioFrom>
+      <DrawingRatioTo>1</DrawingRatioTo>
+      <PrintRatioTo>200</PrintRatioTo>
+      <IsSelected>false</IsSelected>
+      <Id>2069949807</Id>
+      <IsDwgNew>false</IsDwgNew>
+      <AddToProjDate>2025-08-26T14:59:14.6558555+03:00</AddToProjDate>
+    </ProjectFile>
+  </DwgFiles>
+  <CreationDate>2025-08-26T11:03:08.7412522+03:00</CreationDate>
+  <LastAccessTime>2025-08-26T14:59:24.196317+03:00</LastAccessTime>
+  <SortColHeader />
+  <SortColDirection />
+</Project>
