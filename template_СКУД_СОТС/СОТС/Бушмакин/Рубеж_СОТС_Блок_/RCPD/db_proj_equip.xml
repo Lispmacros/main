@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentList>
+  <Equipment uid="668" idCat="111" cvt_article="RBZ-221327" isInpVis="false" type="equipment" isInSpec="true" positType="address" schmEqGroupName="ИВЭПР 24/... БР-R3 (адресный)" akbInfos="412-007" ugoName="RC-UGO-IP24-02" addressCnt="1" replGrpId="41" canHaveBR="true" countAkb="2" amperage="2.5" power="120" сurConsumpAlsAlarm="0.0009" сurConsumpAlsStandby="0.0009" blckOptGrpId="Group_668" voltage="24" rsType="R3" topCablLsTypes="power12" handle="5BE1#1123704570" positText="UG" location="Вне здания##-100" IsPosNameFix="False" positName="xUGy.z" mountingHeight="6" cablingHeight="6" isFireZoneExtended="False" аdditionalInfo="" akbInf="412-007" dwgId="-868607256">
+    <ports count="4">
+      <port name="АЛС" supportedLsType="address" lsName="" />
+      <port name="24В_1" supportedLsType="power12" lsName="" />
+      <port name="24В_2" supportedLsType="power12" lsName="" />
+      <port name="220В" supportedLsType="power220" lsName="" />
+    </ports>
+  </Equipment>
+  <Equipment uid="668" idCat="111" cvt_article="RBZ-221327" isInpVis="false" type="equipment" isInSpec="true" positType="address" schmEqGroupName="ИВЭПР 24/... БР-R3 (адресный)" akbInfos="412-007" ugoName="RC-UGO-IP24-02" addressCnt="1" replGrpId="41" canHaveBR="true" countAkb="2" amperage="2.5" power="120" сurConsumpAlsAlarm="0.0009" сurConsumpAlsStandby="0.0009" blckOptGrpId="Group_668" voltage="24" rsType="R3" topCablLsTypes="power12" handle="5BD5#1115751176" positText="UG" location="Вне здания##-100" IsPosNameFix="False" positName="1UG1.1" mountingHeight="6" cablingHeight="6" isFireZoneExtended="False" аdditionalInfo="" akbInf="412-007" dwgId="-868607256">
+    <ports count="4">
+      <port name="АЛС" supportedLsType="address" lsName="АЛС1.1" />
+      <port name="24В_1" supportedLsType="power12" lsName="P1" />
+      <port name="24В_2" supportedLsType="power12" lsName="" />
+      <port name="220В" supportedLsType="power220" lsName="" />
+    </ports>
+  </Equipment>
+  <Equipment uid="171" idCat="38" cvt_article="RBZ-226684" type="equipment" isInSpec="true" positType="noaddress" schmEqGroupName="ОПОП124-7" ugoName="RC-UGO-OK-01" replGrpId="21" voltage="24" сurConsump24Standby="0" сurConsump24Alarm="0.06" blckOptGrpId="Group_171" handle="5835#1140834206" positText="BIALS" positName="BIALS52" mountingHeight="2.4" cablingHeight="6" FrAlrmZoneNum="" isFireZoneExtended="False" аdditionalInfo="" dwgId="-868607256">
+    <ports count="2">
+      <port name="ОП1" supportedLsType="notif_light" lsName="" />
+      <port name="ОП2" supportedLsType="notif_sound" lsName="" />
+    </ports>
+  </Equipment>
+  <Equipment uid="991" idCat="52" cvt_article="RBZ-042107" type="equipment" isInSpec="true" positType="address" schmEqGroupName="АМП-4-R3" ugoName="RC-UGO-AM-03" addressCnt="8" сurConsump24Standby="0.045" сurConsump24Alarm="0.145" сurConsump12Standby="0.072" сurConsump12Alarm="0.275" voltage="12/24" сurConsumpAlsStandby="0.00072" сurConsumpAlsAlarm="0.00072" blckOptGrpId="Group_991" сurConsumpAlsKz="0.01" replGrpId="88" rsType="R3" topCablLsTypes="noaddress" handle="5832#1140834205" positText="A" positName="xAy.z" mountingHeight="6" cablingHeight="6" FrAlrmZoneNum="" isFireZoneExtended="False" customDescr="" аdditionalInfo="" dwgId="-868607256">
+    <ports count="11">
+      <port name="АЛС" supportedLsType="address" lsName="" />
+      <port name="ШС1" supportedLsType="noaddress" lsName="" />
+      <port name="ШС2" supportedLsType="noaddress" lsName="" />
+      <port name="ШС3" supportedLsType="noaddress" lsName="" />
+      <port name="ШС4" supportedLsType="noaddress" lsName="" />
+      <port name="Пит1" supportedLsType="power12" lsName="" />
+      <port name="Пит2" supportedLsType="power12" lsName="" />
+      <port name="Реле1" supportedLsType="notif_sound;notif_light;control;power12;power220" lsName="" />
+      <port name="Реле2" supportedLsType="notif_sound;notif_light;control;power12;power220" lsName="" />
+      <port name="Управление" supportedLsType="control" lsName="" />
+      <port name="Wiegand" supportedLsType="interface_wiegand" lsName="" />
+    </ports>
+  </Equipment>
+  <Equipment uid="998" idCat="53" cvt_article="RBZ-091618" type="equipment" isInSpec="true" positType="address" schmEqGroupName="РМ-4К-R3" replGrpId="70" ugoName="RC-UGO-RM-05" addressCnt="4" сurConsump12Standby="0.02" сurConsump12Alarm="0.02" сurConsump24Standby="0.02" сurConsump24Alarm="0.02" voltage="12/24" сurConsumpAlsStandby="0.00072" сurConsumpAlsAlarm="0.00072" blckOptGrpId="Group_998" rsType="R3" handle="1385#1121214331" positText="SC" positName="xSCy.z" mountingHeight="6" cablingHeight="6" FrAlrmZoneNum="" isFireZoneExtended="False" customDescr="" аdditionalInfo="" dwgId="-868607256">
+    <ports count="6">
+      <port name="АЛС" supportedLsType="address" lsName="" />
+      <port name="Уп1" supportedLsType="notif_sound;notif_light;control" lsName="" />
+      <port name="Уп2" supportedLsType="notif_sound;notif_light;control" lsName="" />
+      <port name="Уп3" supportedLsType="notif_sound;notif_light;control" lsName="" />
+      <port name="Уп4" supportedLsType="notif_sound;notif_light;control" lsName="" />
+      <port name="Пит" supportedLsType="power12" lsName="" />
+    </ports>
+  </Equipment>
+  <Equipment uid="110" idCat="21" cvt_article="$$$13" type="equipment" isInSpec="true" positType="noaddress" schmEqGroupName="ИО102..(СМК)" ugoName="RC-UGO-IOM-01" replGrpId="12" isImpers="true" blckOptGrpId="Group_110" handle="11A7#1120846285" positText="BGB" positName="BGB27" mountingHeight="1" cablingHeight="6" FrAlrmZoneNum="" isFireZoneExtended="False" customDescr="" аdditionalInfo="" dwgId="-868607256">
+    <ports count="1">
+      <port name="ШС1" supportedLsType="noaddress" lsName="" />
+    </ports>
+  </Equipment>
+  <Equipment uid="28" idCat="79" cvt_article="$$$1100" keyInfo="RBZ-156926||Ключ HASP Pro (FireSec «Оперативная задача» прот.R3)" type="equipment" isInSpec="true" positType="noaddress" ugoName="RC-UGO-PC-02" replGrpId="47" isImpers="true" blckOptGrpId="Group_28" rsType="R3" handle="E35#1120142178" positText="PC" location="Вне здания##-100" positName="PC1" mountingHeight="1" cablingHeight="1" FrAlrmZoneNum="" isFireZoneExtended="False" аdditionalInfo="" dwgId="-868607256">
+    <ports count="3">
+      <port name="220В" supportedLsType="power220" lsName="" />
+      <port name="Инт" supportedLsType="interface_eth" lsName="RS1" />
+      <port name="USB" supportedLsType="interface_usb" lsName="" />
+    </ports>
+  </Equipment>
+  <Equipment uid="171" idCat="38" cvt_article="RBZ-226684" type="equipment" isInSpec="true" positType="noaddress" schmEqGroupName="ОПОП124-7" ugoName="RC-UGO-OK-01" replGrpId="21" voltage="24" сurConsump24Standby="0" сurConsump24Alarm="0.06" blckOptGrpId="Group_171" handle="E0D#1120018177" positText="BIALS" positName="BIALS49" mountingHeight="2.4" cablingHeight="6" FrAlrmZoneNum="" isFireZoneExtended="False" аdditionalInfo="" dwgId="-868607256">
+    <ports count="2">
+      <port name="ОП1" supportedLsType="notif_light" lsName="" />
+      <port name="ОП2" supportedLsType="notif_sound" lsName="S1" />
+    </ports>
+  </Equipment>
+  <Equipment uid="1008" idCat="54" cvt_article="RBZ-319537" type="equipment" сurConsump12Standby="0.2" сurConsump12Alarm="0.2" сurConsump24Standby="0.1" сurConsump24Alarm="0.1" voltage="12/24" isInSpec="true" positType="noaddress" schmEqGroupName="R3-МС-Е" ugoName="RC-UGO-MS-11" blckOptGrpId="Group_1008" rsType="R3" handle="D67#1115559175" positText="A" location="Вне здания##-100" positName="A1" mountingHeight="1.5" cablingHeight="1.5" FrAlrmZoneNum="" isFireZoneExtended="False" аdditionalInfo="" dwgId="-868607256">
+    <ports count="5">
+      <port name="RS-485-1" supportedLsType="interface_485" lsName="" />
+      <port name="USB" supportedLsType="interface_usb" lsName="" />
+      <port name="Ethernet" supportedLsType="interface_eth" lsName="RS1" />
+      <port name="Пит" supportedLsType="power12" lsName="" />
+      <port name="R3-Link" supportedLsType="interface_r3link" lsName="RL1" />
+    </ports>
+  </Equipment>
+  <Equipment uid="2" idCat="1" cvt_article="RBZ-319538" type="equipment" сurConsump12Standby="0.5" сurConsump12Alarm="0.5" сurConsump24Standby="0.25" сurConsump24Alarm="0.25" voltage="12/24" isInSpec="true" positType="incr" schmEqGroupName="R3-Рубеж-2ОП" ugoName="RC-UGO-PPK-01" masterLsTypes="address" replGrpId="1" blckOptGrpId="Group_2" rsType="R3" handle="D3F#1115520174" positText="ARK" location="Вне здания##-100" positName="ARK1" mountingHeight="1.5" cablingHeight="1.5" predFact="" FrAlrmZoneNum="" isFireZoneExtended="False" аdditionalInfo="" dwgId="-868607256">
+    <ports count="13">
+      <port name="АЛС1" supportedLsType="address" lsName="АЛС1.1" />
+      <port name="АЛС2" supportedLsType="address" lsName="" />
+      <port name="Пит1" supportedLsType="power12" lsName="" />
+      <port name="Пит2" supportedLsType="power12" lsName="" />
+      <port name="Реле1-вх" supportedLsType="notif_sound;notif_light;control;power12;power220" lsName="S1" />
+      <port name="Реле1-вых" supportedLsType="notif_sound;notif_light;control;power12;power220" lsName="" />
+      <port name="Реле2-вх" supportedLsType="notif_sound;notif_light;control;power12;power220" lsName="" />
+      <port name="Реле2-вых" supportedLsType="notif_sound;notif_light;control;power12;power220" lsName="" />
+      <port name="Реле3-вх" supportedLsType="notif_sound;notif_light;control;power12;power220" lsName="" />
+      <port name="Реле3-вых" supportedLsType="notif_sound;notif_light;control;power12;power220" lsName="" />
+      <port name="Вых1" supportedLsType="notif_sound;notif_light;control" lsName="" />
+      <port name="Вых2" supportedLsType="notif_sound;notif_light;control" lsName="" />
+      <port name="R3-Link" supportedLsType="interface_r3link" lsName="RL1" />
+    </ports>
+  </Equipment>
+  <Equipment uid="26" idCat="4" cvt_article="RBZ-319531" type="equipment" сurConsump12Standby="0.35" сurConsump12Alarm="0.35" сurConsump24Standby="0.17" сurConsump24Alarm="0.17" voltage="12/24" isInSpec="true" positType="noaddress" schmEqGroupName="R3-Рубеж-БИУ" ugoName="RC-UGO-BKI-02" replGrpId="4" blckOptGrpId="Group_26" rsType="R3" handle="D28#1115452173" positText="BI" location="Вне здания##-100" positName="BI1" mountingHeight="1.5" cablingHeight="1.5" FrAlrmZoneNum="" isFireZoneExtended="False" аdditionalInfo="" dwgId="-868607256">
+    <ports count="4">
+      <port name="USB" supportedLsType="interface_usb" lsName="" />
+      <port name="Пит1" supportedLsType="power12" lsName="P1" />
+      <port name="Пит2" supportedLsType="power12" lsName="" />
+      <port name="R3-Link" supportedLsType="interface_r3link" lsName="RL1" />
+    </ports>
+  </Equipment>
+  <Equipment uid="989" idCat="52" cvt_article="RBZ-042083" type="equipment" isInSpec="true" positType="address" schmEqGroupName="АМ-1-R3" ugoName="RC-UGO-AM-01" addressCnt="1" сurConsumpAlsStandby="0.00038" сurConsumpAlsAlarm="0.00038" blckOptGrpId="Group_989" rsType="R3" topCablLsTypes="noaddress" handle="31E#11113171" positText="A" location="Вне здания##-100" IsPosNameFix="False" positName="xAy.z" mountingHeight="6" cablingHeight="6" FrAlrmZoneNum="" isFireZoneExtended="False" customDescr="" аdditionalInfo="" dwgId="-868607256">
+    <ports count="2">
+      <port name="АЛС" supportedLsType="address" lsName="" />
+      <port name="ШС" supportedLsType="control;noaddress" lsName="" />
+    </ports>
+  </Equipment>
+</EquipmentList>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RPSettings>
+  <LAYERS>
+    <RC-Извещатели_охранные>
+      <Color>5</Color>
+      <Weight>0.3</Weight>
+      <LineType>Continuous</LineType>
+    </RC-Извещатели_охранные>
+    <RC-Оповещение>
+      <Color>6</Color>
+      <Weight>0.3</Weight>
+      <LineType>Continuous</LineType>
+    </RC-Оповещение>
+    <RC-Источники_электропитания>
+      <Color>1</Color>
+      <Weight>0.3</Weight>
+      <LineType>Continuous</LineType>
+    </RC-Источники_электропитания>
+    <RC-Линии_связи-Адресные>
+      <Color>5</Color>
+      <Weight>0.3</Weight>
+      <LineType>Continuous</LineType>
+    </RC-Линии_связи-Адресные>
+    <RC-Линии_связи-Интерфейсные_R3-Link>
+      <Color>6</Color>
+      <Weight>0.3</Weight>
+      <LineType>Continuous</LineType>
+    </RC-Линии_связи-Интерфейсные_R3-Link>
+    <RC-Линии_связи-Шлейфы_сигнальные>
+      <Color>3</Color>
+      <Weight>0.3</Weight>
+      <LineType>Continuous</LineType>
+    </RC-Линии_связи-Шлейфы_сигнальные>
+    <RC-Линии_связи-Оповещение_световое>
+      <Color>3</Color>
+      <Weight>0.3</Weight>
+      <LineType>Continuous</LineType>
+    </RC-Линии_связи-Оповещение_световое>
+  </LAYERS>
+  <CommunicationLines>
+    <address>
+      <Visual_name>Адресная</Visual_name>
+      <DEf_LS_NAME>АЛС</DEf_LS_NAME>
+      <Layer>RC-Линии_связи-Адресные</Layer>
+      <DEF_CAB_ID>2</DEF_CAB_ID>
+      <Edit_wnd_expanded>True</Edit_wnd_expanded>
+    </address>
+    <interface_485>
+      <Visual_name>Интерфейсная RS-485</Visual_name>
+      <DEf_LS_NAME>RS</DEf_LS_NAME>
+      <Layer>RC-Линии_связи-Интерфейсные_RS-485</Layer>
+      <DEF_CAB_ID>0</DEF_CAB_ID>
+      <Edit_wnd_expanded>True</Edit_wnd_expanded>
+    </interface_485>
+    <noaddress>
+      <Visual_name>Шлейф сигнальный</Visual_name>
+      <DEf_LS_NAME>ШС</DEf_LS_NAME>
+      <Layer>RC-Линии_связи-Шлейфы_сигнальные</Layer>
+      <DEF_CAB_ID>1</DEF_CAB_ID>
+      <Edit_wnd_expanded>False</Edit_wnd_expanded>
+    </noaddress>
+    <notif_sound>
+      <Visual_name>Оповещение звуковое</Visual_name>
+      <DEf_LS_NAME>S</DEf_LS_NAME>
+      <Layer>RC-Линии_связи-Оповещение_звуковое</Layer>
+      <DEF_CAB_ID>1</DEF_CAB_ID>
+      <Edit_wnd_expanded>True</Edit_wnd_expanded>
+    </notif_sound>
+  </CommunicationLines>
+  <COMMON>
+    <IveprCalcFormulaType>1UG1.116#24#1#0#1.25|1UG1.130#24#1#0#1.25|1UG1.19#24#1#0#1.25|1UG1.36#24#1#0#1.25|1UG1.53#24#1#0#1.25|1UG1.61#24#1#0#1.25|1UG1.89#24#1#0#1.25|1UG1.1#24#1#0#1.25</IveprCalcFormulaType>
+  </COMMON>
+</RPSettings>

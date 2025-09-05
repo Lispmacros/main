@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommunicLines>
+  <CommunicLine lsName="RS1" userLsName="RS1" type="interface_eth" handleMainEqip="">
+    <CableSegment handle="42DE#1134004932" id="101" length="898" dwgId="-868607256" />
+    <CableSegment handle="42F1#1134006933" id="101" length="2622" dwgId="-868607256" />
+    <CableSegment handle="42FB#1134007934" id="101" length="6260" dwgId="-868607256" />
+    <CableSegment handle="42FC#1134008935" id="101" length="8200" dwgId="-868607256" />
+    <CableSegment handle="42FD#1134010936" id="101" length="998" dwgId="-868607256" />
+    <CableSegment handle="42FE#1134010937" id="101" length="1272" dwgId="-868607256" />
+  </CommunicLine>
+  <CommunicLine lsName="АЛС1.1" userLsName="АЛС1.1" type="address" handleMainEqip="D3F#1115520174">
+    <CableSegment handle="595D#1141248226" id="2" length="2070" dwgId="-868607256" />
+    <CableSegment handle="5967#1141252227" id="2" length="3610" dwgId="-868607256" />
+    <CableSegment handle="287B#1125151593" id="2" length="4520" dwgId="-868607256" />
+    <CableSegment handle="5968#1141255228" id="2" length="610" dwgId="-868607256" />
+    <CableSegment handle="5CA9#1142753268" id="2" length="1038" dwgId="-868607256" />
+    <CableSegment handle="5CBC#1142757269" id="2" length="480" dwgId="-868607256" />
+    <CableSegment handle="5CC6#1142759270" id="2" length="4000" dwgId="-868607256" />
+    <CableSegment handle="5CD0#1142802271" id="2" length="1024" dwgId="-868607256" />
+    <CableSegment handle="5CD1#1142802272" id="2" length="490" dwgId="-868607256" />
+    <CableSegment handle="5EC5#1143312311" id="2" length="1028" dwgId="-868607256" />
+    <CableSegment handle="5EC6#1143312312" id="2" length="6210" dwgId="-868607256" />
+  </CommunicLine>
+  <CommunicLine lsName="S1" userLsName="S1" type="notif_sound" handleMainEqip="">
+    <CableSegment handle="5DE4#1143032287" id="1" length="1118" dwgId="-868607256" />
+    <CableSegment handle="5DF5#1143034288" id="1" length="1820" dwgId="-868607256" />
+    <CableSegment handle="5DFE#1143036289" id="1" length="4116" dwgId="-868607256" />
+    <CableSegment handle="5DFF#1143036290" id="1" length="592" dwgId="-868607256" />
+  </CommunicLine>
+  <CommunicLine lsName="RL1" userLsName="RL1" type="interface_r3link" handleMainEqip="">
+    <CableSegment handle="5CE2#1142911273" id="10" length="693" dwgId="-868607256" />
+    <CableSegment handle="5CF1#1142913274" id="10" length="700" dwgId="-868607256" />
+    <CableSegment handle="5CF2#1142913275" id="10" length="1250" dwgId="-868607256" />
+    <CableSegment handle="5D24#1142927278" id="10" length="711" dwgId="-868607256" />
+    <CableSegment handle="5D35#1142929279" id="10" length="711" dwgId="-868607256" />
+    <CableSegment handle="5D36#1142929280" id="10" length="1440" dwgId="-868607256" />
+    <CableSegment handle="5D57#1142939281" id="10" length="910" dwgId="-868607256" />
+    <CableSegment handle="5D88#1142941282" id="10" length="910" dwgId="-868607256" />
+    <CableSegment handle="5D89#1142941283" id="10" length="1440" dwgId="-868607256" />
+    <CableSegment handle="5DAA#1142944284" id="10" length="943" dwgId="-868607256" />
+    <CableSegment handle="5DBB#1142946285" id="10" length="952" dwgId="-868607256" />
+    <CableSegment handle="5DBC#1142946286" id="10" length="1250" dwgId="-868607256" />
+  </CommunicLine>
+  <CommunicLine lsName="P1" userLsName="P1" type="power12" handleMainEqip="">
+    <CableSegment handle="26C6#1123902572" id="4" length="500" dwgId="-868607256" />
+    <CableSegment handle="26D9#1123903573" id="4" length="500" dwgId="-868607256" />
+    <CableSegment handle="26DA#1123903574" id="4" length="1250" dwgId="-868607256" />
+  </CommunicLine>
+</CommunicLines>

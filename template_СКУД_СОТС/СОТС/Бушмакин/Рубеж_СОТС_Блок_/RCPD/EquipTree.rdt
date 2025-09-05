@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<RubezhCADTree Version="1.0">
+  <device_tree>
+    <dev uid="28" positName="PC1" SsUid="1" dwgId="-868607256" location="" ugoName="RC-UGO-PC-02" handle="E35#1120142178" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="79" brand="Персональный компьютер с FireSec Оперативная задача" blckOptGrpId="Group_28" customDescr="">
+      <ls type="interface_eth" lsName="RS1" userlsName="RS1" SsUid="2" isVirt="false" hasTopRing="false">
+        <dev uid="1008" positName="A1" SsUid="3" dwgId="-868607256" location="" ugoName="RC-UGO-MS-11" handle="D67#1115559175" ConnectedLsNames="RS1;RL1" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="54" brand="R3-МС-Е" blckOptGrpId="Group_1008" customDescr="">
+          <ls type="interface_r3link" lsName="RL1" userlsName="RL1" SsUid="4" isVirt="false" hasTopRing="false" />
+        </dev>
+      </ls>
+    </dev>
+  </device_tree>
+  <ls_tree>
+    <ls type="interface_r3link" lsName="RL1" userlsName="RL1" SsUid="4" isVirt="false" hasTopRing="false">
+      <dev uid="2" positName="ARK1" SsUid="5" dwgId="-868607256" location="" ugoName="RC-UGO-PPK-01" handle="D3F#1115520174" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="1" brand="R3-Рубеж-2ОП" blckOptGrpId="Group_2" customDescr="">
+        <ls type="address" lsName="АЛС1.1" userlsName="АЛС1.1" SsUid="6" isVirt="false" hasTopRing="true">
+          <dev uid="668" positName="1UG1.1" SsUid="7" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5BD5#1115751176" ConnectedLsNames="АЛС1.1;P1" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="">
+            <ls type="power12" lsName="P1" userlsName="P1" SsUid="8" isVirt="false" hasTopRing="false">
+              <dev uid="26" positName="BI1" SsUid="9" dwgId="-868607256" location="" ugoName="RC-UGO-BKI-02" handle="D28#1115452173" lsNamesIsLastItemOnBranch="P1" IsAlsConnectible="false" idCat="4" brand="R3-Рубеж-БИУ" blckOptGrpId="Group_26" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="991" positName="1A1.2..9" SsUid="10" dwgId="-868607256" location="" ugoName="RC-UGO-AM-03" handle="5832#1140834205" ConnectedLsNames="АЛС1.1;ШС53;S6" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМП-4-R3" blckOptGrpId="Group_991" customDescr="">
+            <ls type="noaddress" lsName="ШС53" userlsName="ШС53" SsUid="11" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB27" SsUid="12" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11A7#1120846285" lsNamesIsLastItemOnBranch="ШС53" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+            <ls type="notif_sound" lsName="S6" userlsName="S6" SsUid="13" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS52" SsUid="14" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="5835#1140834206" lsNamesIsLastItemOnBranch="S6" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.10" SsUid="15" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="31E#11113171" ConnectedLsNames="АЛС1.1;ШС1" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС1" userlsName="ШС1" SsUid="16" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB1" SsUid="17" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1159#1120846259" lsNamesIsLastItemOnBranch="ШС1" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.11" SsUid="18" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="80B#111354072" ConnectedLsNames="АЛС1.1;ШС2" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС2" userlsName="ШС2" SsUid="19" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB2" SsUid="20" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="115C#1120846260" lsNamesIsLastItemOnBranch="ШС2" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.12" SsUid="21" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="817#111354873" ConnectedLsNames="АЛС1.1;ШС3" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС3" userlsName="ШС3" SsUid="22" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB3" SsUid="23" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="115F#1120846261" lsNamesIsLastItemOnBranch="ШС3" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.13..16" SsUid="24" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="1385#1121214331" ConnectedLsNames="АЛС1.1;L2;P5" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L2" userlsName="L2" SsUid="25" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS4" SsUid="26" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="8A7#111373183" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS3" SsUid="27" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="89B#111372682" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS2" SsUid="28" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="88F#111372281" lsNamesIsLastItemOnBranch="L2" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+            <ls type="power12" lsName="P5" userlsName="P2" SsUid="29" isVirt="false" hasTopRing="false">
+              <dev uid="668" positName="1UG1.19" SsUid="30" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5BE1#1123704570" ConnectedLsNames="АЛС1.1;P5" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="" />
+              <dev uid="998" positName="1SC1.22..25" SsUid="31" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="1391#1121255332" ConnectedLsNames="АЛС1.1;L1;P5" lsNamesIsLastItemOnBranch="P5" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.17" SsUid="32" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="823#111355374" ConnectedLsNames="АЛС1.1;ШС4" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС4" userlsName="ШС4" SsUid="33" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB4" SsUid="34" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1162#1120846262" lsNamesIsLastItemOnBranch="ШС4" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.18" SsUid="35" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="82F#111355775" ConnectedLsNames="АЛС1.1;ШС5" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС5" userlsName="ШС5" SsUid="36" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB5" SsUid="37" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1165#1120846263" lsNamesIsLastItemOnBranch="ШС5" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="668" positName="1UG1.19" SsUid="30" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5BE1#1123704570" ConnectedLsNames="АЛС1.1;P5" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="" />
+          <dev uid="989" positName="1A1.20" SsUid="38" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="83B#111362076" ConnectedLsNames="АЛС1.1;ШС6" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС6" userlsName="ШС6" SsUid="39" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB6" SsUid="40" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1168#1120846264" lsNamesIsLastItemOnBranch="ШС6" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.21" SsUid="41" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="847#111362777" ConnectedLsNames="АЛС1.1;ШС7" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС7" userlsName="ШС7" SsUid="42" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB7" SsUid="43" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="116B#1120846265" lsNamesIsLastItemOnBranch="ШС7" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.22..25" SsUid="31" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="1391#1121255332" ConnectedLsNames="АЛС1.1;L1;P5" lsNamesIsLastItemOnBranch="P5" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L1" userlsName="L1" SsUid="44" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS8" SsUid="45" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="8DF#111380187" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS7" SsUid="46" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="8CB#111375586" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS6" SsUid="47" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="8BF#111374985" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS5" SsUid="48" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="8B3#111373784" lsNamesIsLastItemOnBranch="L1" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.26" SsUid="49" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="853#111363278" ConnectedLsNames="АЛС1.1;ШС8" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС8" userlsName="ШС8" SsUid="50" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB8" SsUid="51" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="116E#1120846266" lsNamesIsLastItemOnBranch="ШС8" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.27" SsUid="52" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="85F#111363779" ConnectedLsNames="АЛС1.1;ШС9" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС9" userlsName="ШС9" SsUid="53" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB9" SsUid="54" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1171#1120846267" lsNamesIsLastItemOnBranch="ШС9" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.28" SsUid="55" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="873#111364480" ConnectedLsNames="АЛС1.1;ШС10" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС10" userlsName="ШС10" SsUid="56" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB10" SsUid="57" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1174#1120846268" lsNamesIsLastItemOnBranch="ШС10" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.29" SsUid="58" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="ABF#1114510133" ConnectedLsNames="АЛС1.1;ШС11" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС11" userlsName="ШС11" SsUid="59" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB11" SsUid="60" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1177#1120846269" lsNamesIsLastItemOnBranch="ШС11" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.30..33" SsUid="61" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="13C5#1121541333" ConnectedLsNames="АЛС1.1;L4;P3" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L4" userlsName="L4" SsUid="62" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS12" SsUid="63" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="917#111391391" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS11" SsUid="64" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="90B#111391090" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS10" SsUid="65" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="8FF#111390289" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS9" SsUid="66" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="8EB#111381088" lsNamesIsLastItemOnBranch="L4" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+            <ls type="power12" lsName="P3" userlsName="P3" SsUid="67" isVirt="false" hasTopRing="false">
+              <dev uid="668" positName="1UG1.36" SsUid="68" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5BED#1123743571" ConnectedLsNames="АЛС1.1;P3" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="" />
+              <dev uid="998" positName="1SC1.39..42" SsUid="69" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="13D1#1121555334" ConnectedLsNames="АЛС1.1;L3;P3" lsNamesIsLastItemOnBranch="P3" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.34" SsUid="70" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="ACB#1114514134" ConnectedLsNames="АЛС1.1;ШС12" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС12" userlsName="ШС12" SsUid="71" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB12" SsUid="72" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="117A#1120846270" lsNamesIsLastItemOnBranch="ШС12" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.35" SsUid="73" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="AD7#1114518135" ConnectedLsNames="АЛС1.1;ШС13" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС13" userlsName="ШС13" SsUid="74" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB13" SsUid="75" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="117D#1120846271" lsNamesIsLastItemOnBranch="ШС13" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="668" positName="1UG1.36" SsUid="68" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5BED#1123743571" ConnectedLsNames="АЛС1.1;P3" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="" />
+          <dev uid="989" positName="1A1.37" SsUid="76" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="AE3#1114521136" ConnectedLsNames="АЛС1.1;ШС14" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС14" userlsName="ШС14" SsUid="77" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB14" SsUid="78" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1180#1120846272" lsNamesIsLastItemOnBranch="ШС14" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.38" SsUid="79" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="AEF#1114527137" ConnectedLsNames="АЛС1.1;ШС15" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС15" userlsName="ШС15" SsUid="80" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB15" SsUid="81" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1183#1120846273" lsNamesIsLastItemOnBranch="ШС15" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.39..42" SsUid="69" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="13D1#1121555334" ConnectedLsNames="АЛС1.1;L3;P3" lsNamesIsLastItemOnBranch="P3" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L3" userlsName="L3" SsUid="82" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS16" SsUid="83" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="947#111393695" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS15" SsUid="84" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="93B#111392794" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS14" SsUid="85" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="92F#111392393" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS13" SsUid="86" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="923#111392092" lsNamesIsLastItemOnBranch="L3" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.43" SsUid="87" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="AFB#1114530138" ConnectedLsNames="АЛС1.1;ШС16" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС16" userlsName="ШС16" SsUid="88" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB16" SsUid="89" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1186#1120846274" lsNamesIsLastItemOnBranch="ШС16" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.44" SsUid="90" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B07#1114533139" ConnectedLsNames="АЛС1.1;ШС17" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС17" userlsName="ШС17" SsUid="91" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB17" SsUid="92" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1189#1120846275" lsNamesIsLastItemOnBranch="ШС17" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.45" SsUid="93" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B13#1114537140" ConnectedLsNames="АЛС1.1;ШС18" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС18" userlsName="ШС18" SsUid="94" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB18" SsUid="95" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="118C#1120846276" lsNamesIsLastItemOnBranch="ШС18" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.46" SsUid="96" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B1F#1114542141" ConnectedLsNames="АЛС1.1;ШС19" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС19" userlsName="ШС19" SsUid="97" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB19" SsUid="98" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="118F#1120846277" lsNamesIsLastItemOnBranch="ШС19" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.47..50" SsUid="99" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="13E5#1121610335" ConnectedLsNames="АЛС1.1;L5;P2" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L5" userlsName="L5" SsUid="100" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS20" SsUid="101" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="977#111395799" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS19" SsUid="102" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="96B#111395298" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS18" SsUid="103" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="95F#111394997" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS17" SsUid="104" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="953#111394496" lsNamesIsLastItemOnBranch="L5" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+            <ls type="power12" lsName="P2" userlsName="P4" SsUid="105" isVirt="false" hasTopRing="false">
+              <dev uid="668" positName="1UG1.53" SsUid="106" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5BF9#1132501775" ConnectedLsNames="АЛС1.1;P2" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="" />
+              <dev uid="998" positName="1SC1.56..59" SsUid="107" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="13F1#1121616336" ConnectedLsNames="АЛС1.1;L6;P2" lsNamesIsLastItemOnBranch="P2" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.51" SsUid="108" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B2B#1114545142" ConnectedLsNames="АЛС1.1;ШС20" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС20" userlsName="ШС20" SsUid="109" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB20" SsUid="110" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1192#1120846278" lsNamesIsLastItemOnBranch="ШС20" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.52" SsUid="111" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B37#1114550143" ConnectedLsNames="АЛС1.1;ШС21" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС21" userlsName="ШС21" SsUid="112" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB21" SsUid="113" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1195#1120846279" lsNamesIsLastItemOnBranch="ШС21" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="668" positName="1UG1.53" SsUid="106" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5BF9#1132501775" ConnectedLsNames="АЛС1.1;P2" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="" />
+          <dev uid="989" positName="1A1.54" SsUid="114" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B43#1114555144" ConnectedLsNames="АЛС1.1;ШС22" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС22" userlsName="ШС22" SsUid="115" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB22" SsUid="116" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="1198#1120846280" lsNamesIsLastItemOnBranch="ШС22" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.55" SsUid="117" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B4F#1114559145" ConnectedLsNames="АЛС1.1;ШС23" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС23" userlsName="ШС23" SsUid="118" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB23" SsUid="119" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="119B#1120846281" lsNamesIsLastItemOnBranch="ШС23" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.56..59" SsUid="107" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="13F1#1121616336" ConnectedLsNames="АЛС1.1;L6;P2" lsNamesIsLastItemOnBranch="P2" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L6" userlsName="L6" SsUid="120" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS24" SsUid="121" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9A7#1114019103" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS23" SsUid="122" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="99B#1114012102" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS22" SsUid="123" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="98F#1114007101" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS21" SsUid="124" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="983#1114003100" lsNamesIsLastItemOnBranch="L6" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.60" SsUid="125" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B5B#1114603146" ConnectedLsNames="АЛС1.1;ШС24" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС24" userlsName="ШС24" SsUid="126" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB24" SsUid="127" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="119E#1120846282" lsNamesIsLastItemOnBranch="ШС24" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="668" positName="1UG1.61" SsUid="128" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5C05#1132713792" ConnectedLsNames="АЛС1.1;P10" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="">
+            <ls type="power12" lsName="P10" userlsName="P5" SsUid="129" isVirt="false" hasTopRing="false">
+              <dev uid="998" positName="1SC1.63..66" SsUid="130" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="2617#1123324565" ConnectedLsNames="АЛС1.1;L7;P10" lsNamesIsLastItemOnBranch="P10" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.62" SsUid="131" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B67#1114606147" ConnectedLsNames="АЛС1.1;ШС25" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС25" userlsName="ШС25" SsUid="132" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB25" SsUid="133" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11A1#1120846283" lsNamesIsLastItemOnBranch="ШС25" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.63..66" SsUid="130" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="2617#1123324565" ConnectedLsNames="АЛС1.1;L7;P10" lsNamesIsLastItemOnBranch="P10" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L7" userlsName="L7" SsUid="134" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS26" SsUid="135" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9BF#1114027105" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS25" SsUid="136" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9B3#1114023104" lsNamesIsLastItemOnBranch="L7" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.67" SsUid="137" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B73#1114610148" ConnectedLsNames="АЛС1.1;ШС26" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС26" userlsName="ШС26" SsUid="138" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB26" SsUid="139" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11A4#1120846284" lsNamesIsLastItemOnBranch="ШС26" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="991" positName="1A1.68..75" SsUid="140" dwgId="-868607256" location="" ugoName="RC-UGO-AM-03" handle="1E91#1122315469" ConnectedLsNames="АЛС1.1;ШС27;S5" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМП-4-R3" blckOptGrpId="Group_991" customDescr="">
+            <ls type="noaddress" lsName="ШС27" userlsName="ШС27" SsUid="141" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB28" SsUid="142" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11AA#1120846286" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+              <dev uid="110" positName="BGB29" SsUid="143" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11AD#1120846287" lsNamesIsLastItemOnBranch="ШС27" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+            <ls type="notif_sound" lsName="S5" userlsName="S5" SsUid="144" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS1" SsUid="145" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="1EFC#1122353477" lsNamesIsLastItemOnBranch="S5" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.76" SsUid="146" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="3B49#1133101809" ConnectedLsNames="АЛС1.1;ШС30" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС30" userlsName="ШС30" SsUid="147" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB52" SsUid="148" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11F2#1120847310" lsNamesIsLastItemOnBranch="ШС30" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.77" SsUid="149" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="3B3D#1133058808" ConnectedLsNames="АЛС1.1;ШС28" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС28" userlsName="ШС28" SsUid="150" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB53" SsUid="151" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11F5#1120847311" lsNamesIsLastItemOnBranch="ШС28" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.78..81" SsUid="152" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="532B#1140040141" ConnectedLsNames="АЛС1.1;L14" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L14" userlsName="L14" SsUid="153" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS45" SsUid="154" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="A77#1114437129" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS44" SsUid="155" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="A6B#1114432128" lsNamesIsLastItemOnBranch="L14" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.82" SsUid="156" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="3B31#1133054807" ConnectedLsNames="АЛС1.1;ШС29" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС29" userlsName="ШС29" SsUid="157" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB54" SsUid="158" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11F8#1120847312" lsNamesIsLastItemOnBranch="ШС29" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.83" SsUid="159" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="3B25#1133048806" ConnectedLsNames="АЛС1.1;ШС31" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС31" userlsName="ШС31" SsUid="160" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB55" SsUid="161" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11FB#1120847313" lsNamesIsLastItemOnBranch="ШС31" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.84" SsUid="162" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="3B19#1133039805" ConnectedLsNames="АЛС1.1;ШС32" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС32" userlsName="ШС32" SsUid="163" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB56" SsUid="164" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11FE#1120847314" lsNamesIsLastItemOnBranch="ШС32" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.85..88" SsUid="165" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="531F#1140004140" ConnectedLsNames="АЛС1.1;L15;P8" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L15" userlsName="L15" SsUid="166" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS48" SsUid="167" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="AA3#1114451132" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS47" SsUid="168" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="A8F#1114445131" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS46" SsUid="169" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="A83#1114441130" lsNamesIsLastItemOnBranch="L15" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+            <ls type="power12" lsName="P8" userlsName="P8" SsUid="170" isVirt="false" hasTopRing="false">
+              <dev uid="668" positName="1UG1.89" SsUid="171" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5C29#113532218" ConnectedLsNames="АЛС1.1;P8" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="" />
+              <dev uid="998" positName="1SC1.102..105" SsUid="172" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="463B#1134744977" ConnectedLsNames="АЛС1.1;L8;P8" lsNamesIsLastItemOnBranch="P8" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="668" positName="1UG1.89" SsUid="171" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5C29#113532218" ConnectedLsNames="АЛС1.1;P8" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="" />
+          <dev uid="991" positName="1A1.90..97" SsUid="173" dwgId="-868607256" location="" ugoName="RC-UGO-AM-03" handle="4516#1134553961" ConnectedLsNames="АЛС1.1;ШС51;ШС52;S4" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМП-4-R3" blckOptGrpId="Group_991" customDescr="">
+            <ls type="noaddress" lsName="ШС51" userlsName="ШС51" SsUid="174" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB32" SsUid="175" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11B6#1120846290" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+              <dev uid="110" positName="BGB31" SsUid="176" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11B3#1120846289" lsNamesIsLastItemOnBranch="ШС51" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+            <ls type="noaddress" lsName="ШС52" userlsName="ШС52" SsUid="177" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB30" SsUid="178" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11B0#1120846288" lsNamesIsLastItemOnBranch="ШС52" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+            <ls type="notif_sound" lsName="S4" userlsName="S4" SsUid="179" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS51" SsUid="180" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="4519#1134553962" lsNamesIsLastItemOnBranch="S4" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.98" SsUid="181" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="C47#1114800165" ConnectedLsNames="АЛС1.1;ШС49" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС49" userlsName="ШС49" SsUid="182" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB33" SsUid="183" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11B9#1120846291" lsNamesIsLastItemOnBranch="ШС49" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.99" SsUid="184" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="C3B#1114753164" ConnectedLsNames="АЛС1.1;ШС48" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС48" userlsName="ШС48" SsUid="185" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB34" SsUid="186" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11BC#1120846292" lsNamesIsLastItemOnBranch="ШС48" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.100" SsUid="187" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="C2F#1114747163" ConnectedLsNames="АЛС1.1;ШС47" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС47" userlsName="ШС47" SsUid="188" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB35" SsUid="189" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11BF#1120846293" lsNamesIsLastItemOnBranch="ШС47" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.101" SsUid="190" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="C23#1114740162" ConnectedLsNames="АЛС1.1;ШС46" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС46" userlsName="ШС46" SsUid="191" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB36" SsUid="192" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11C2#1120846294" lsNamesIsLastItemOnBranch="ШС46" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.102..105" SsUid="172" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="463B#1134744977" ConnectedLsNames="АЛС1.1;L8;P8" lsNamesIsLastItemOnBranch="P8" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L8" userlsName="L8" SsUid="193" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS40" SsUid="194" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="A07#1114222119" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS41" SsUid="195" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="A0B#1114225120" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS42" SsUid="196" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="A0F#1114231121" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS43" SsUid="197" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="A13#1114237122" lsNamesIsLastItemOnBranch="L8" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.106" SsUid="198" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="C17#1114734161" ConnectedLsNames="АЛС1.1;ШС45" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС45" userlsName="ШС45" SsUid="199" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB37" SsUid="200" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11C5#1120846295" lsNamesIsLastItemOnBranch="ШС45" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.107" SsUid="201" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="C0B#1114730160" ConnectedLsNames="АЛС1.1;ШС44" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС44" userlsName="ШС44" SsUid="202" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB38" SsUid="203" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11C8#1120846296" lsNamesIsLastItemOnBranch="ШС44" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.108" SsUid="204" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="BFF#1114723159" ConnectedLsNames="АЛС1.1;ШС43" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС43" userlsName="ШС43" SsUid="205" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB39" SsUid="206" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11CB#1120846297" lsNamesIsLastItemOnBranch="ШС43" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.109" SsUid="207" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="BF3#1114718158" ConnectedLsNames="АЛС1.1;ШС42" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС42" userlsName="ШС42" SsUid="208" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB40" SsUid="209" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11CE#1120846298" lsNamesIsLastItemOnBranch="ШС42" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.110..113" SsUid="210" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="4647#1134757978" ConnectedLsNames="АЛС1.1;L9;P7" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L9" userlsName="L9" SsUid="211" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS36" SsUid="212" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9F7#1114133115" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS37" SsUid="213" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9FB#1114200116" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS38" SsUid="214" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9FF#1114204117" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS39" SsUid="215" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="A03#1114207118" lsNamesIsLastItemOnBranch="L9" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+            <ls type="power12" lsName="P7" userlsName="P7" SsUid="216" isVirt="false" hasTopRing="false">
+              <dev uid="668" positName="1UG1.116" SsUid="217" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5C1D#113524917" ConnectedLsNames="АЛС1.1;P7" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="" />
+              <dev uid="998" positName="1SC1.119..122" SsUid="218" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="4653#1134811979" ConnectedLsNames="АЛС1.1;L10;P7" lsNamesIsLastItemOnBranch="P7" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.114" SsUid="219" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="BE7#1114712157" ConnectedLsNames="АЛС1.1;ШС41" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС41" userlsName="ШС41" SsUid="220" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB41" SsUid="221" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11D1#1120846299" lsNamesIsLastItemOnBranch="ШС41" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.115" SsUid="222" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="BDB#1114708156" ConnectedLsNames="АЛС1.1;ШС40" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС40" userlsName="ШС40" SsUid="223" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB42" SsUid="224" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11D4#1120846300" lsNamesIsLastItemOnBranch="ШС40" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="668" positName="1UG1.116" SsUid="217" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5C1D#113524917" ConnectedLsNames="АЛС1.1;P7" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="" />
+          <dev uid="989" positName="1A1.117" SsUid="225" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="BCF#1114703155" ConnectedLsNames="АЛС1.1;ШС39" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС39" userlsName="ШС39" SsUid="226" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB43" SsUid="227" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11D7#1120846301" lsNamesIsLastItemOnBranch="ШС39" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.118" SsUid="228" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="BC3#1114658154" ConnectedLsNames="АЛС1.1;ШС38" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС38" userlsName="ШС38" SsUid="229" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB44" SsUid="230" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11DA#1120846302" lsNamesIsLastItemOnBranch="ШС38" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.119..122" SsUid="218" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="4653#1134811979" ConnectedLsNames="АЛС1.1;L10;P7" lsNamesIsLastItemOnBranch="P7" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L10" userlsName="L10" SsUid="231" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS32" SsUid="232" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9E7#1114120111" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS33" SsUid="233" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9EB#1114123112" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS34" SsUid="234" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9EF#1114127113" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS35" SsUid="235" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9F3#1114130114" lsNamesIsLastItemOnBranch="L10" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.123" SsUid="236" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="BB7#1114653153" ConnectedLsNames="АЛС1.1;ШС37" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС37" userlsName="ШС37" SsUid="237" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB45" SsUid="238" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11DD#1120847303" lsNamesIsLastItemOnBranch="ШС37" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.124" SsUid="239" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="BAB#1114647152" ConnectedLsNames="АЛС1.1;ШС36" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС36" userlsName="ШС36" SsUid="240" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB46" SsUid="241" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11E0#1120847304" lsNamesIsLastItemOnBranch="ШС36" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.125..128" SsUid="242" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="48B7#113510210" ConnectedLsNames="АЛС1.1;L11;P6" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L11" userlsName="L11" SsUid="243" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS30" SsUid="244" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9DF#1114103109" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS31" SsUid="245" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9E3#1114117110" lsNamesIsLastItemOnBranch="L11" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+            <ls type="power12" lsName="P6" userlsName="P6" SsUid="246" isVirt="false" hasTopRing="false">
+              <dev uid="668" positName="1UG1.130" SsUid="247" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5C11#113522516" ConnectedLsNames="АЛС1.1;P6" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="" />
+              <dev uid="998" positName="1SC1.132..135" SsUid="248" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="4667#1134824980" ConnectedLsNames="АЛС1.1;L12;L13;L13;P6" lsNamesIsLastItemOnBranch="P6" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.129" SsUid="249" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B9F#1114639151" ConnectedLsNames="АЛС1.1;ШС35" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС35" userlsName="ШС35" SsUid="250" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB47" SsUid="251" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11E3#1120847305" lsNamesIsLastItemOnBranch="ШС35" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="668" positName="1UG1.130" SsUid="247" dwgId="-868607256" location="" ugoName="RC-UGO-IP24-02" handle="5C11#113522516" ConnectedLsNames="АЛС1.1;P6" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="111" brand="ИВЭПР 24/2,5 RS-R3 2х7 БР" blckOptGrpId="Group_668" customDescr="" />
+          <dev uid="989" positName="1A1.131" SsUid="252" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B93#1114632150" ConnectedLsNames="АЛС1.1;ШС34" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС34" userlsName="ШС34" SsUid="253" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB48" SsUid="254" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11E6#1120847306" lsNamesIsLastItemOnBranch="ШС34" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="998" positName="1SC1.132..135" SsUid="248" dwgId="-868607256" location="" ugoName="RC-UGO-RM-05" handle="4667#1134824980" ConnectedLsNames="АЛС1.1;L12;L13;L13;P6" lsNamesIsLastItemOnBranch="P6" IsAlsConnectible="true" idCat="53" brand="РМ-4К-R3" blckOptGrpId="Group_998" customDescr="">
+            <ls type="notif_light" lsName="L12" userlsName="L12" SsUid="255" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS28" SsUid="256" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9D7#1114055107" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+              <dev uid="171" positName="BIALS29" SsUid="257" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9DB#1114100108" lsNamesIsLastItemOnBranch="L12" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+            <ls type="notif_light" lsName="L13" userlsName="L13" SsUid="258" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS27" SsUid="259" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="9D3#1114052106" lsNamesIsLastItemOnBranch="L13" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="989" positName="1A1.136" SsUid="260" dwgId="-868607256" location="" ugoName="RC-UGO-AM-01" handle="B87#1114624149" ConnectedLsNames="АЛС1.1;ШС33" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМ-1-R3" blckOptGrpId="Group_989" customDescr="">
+            <ls type="noaddress" lsName="ШС33" userlsName="ШС33" SsUid="261" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB49" SsUid="262" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11E9#1120847307" lsNamesIsLastItemOnBranch="ШС33" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+          </dev>
+          <dev uid="991" positName="1A1.137..144" SsUid="263" dwgId="-868607256" location="" ugoName="RC-UGO-AM-03" handle="4338#1134120938" ConnectedLsNames="АЛС1.1;ШС50;S3" lsNamesIsLastItemOnBranch="" IsAlsConnectible="true" idCat="52" brand="АМП-4-R3" blckOptGrpId="Group_991" customDescr="">
+            <ls type="noaddress" lsName="ШС50" userlsName="ШС50" SsUid="264" isVirt="false" hasTopRing="false">
+              <dev uid="110" positName="BGB51" SsUid="265" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11EF#1120847309" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+              <dev uid="110" positName="BGB50" SsUid="266" dwgId="-868607256" location="" ugoName="RC-UGO-IOM-01" handle="11EC#1120847308" lsNamesIsLastItemOnBranch="ШС50" IsAlsConnectible="false" idCat="21" brand="Извещатель магнитоконтактный" blckOptGrpId="Group_110" customDescr="" />
+            </ls>
+            <ls type="notif_sound" lsName="S3" userlsName="S3" SsUid="267" isVirt="false" hasTopRing="false">
+              <dev uid="171" positName="BIALS50" SsUid="268" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="434C#1134142939" lsNamesIsLastItemOnBranch="S3" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+            </ls>
+          </dev>
+        </ls>
+        <ls type="notif_sound" lsName="S1" userlsName="S1" SsUid="269" isVirt="false" hasTopRing="false">
+          <dev uid="171" positName="BIALS49" SsUid="270" dwgId="-868607256" location="" ugoName="RC-UGO-OK-01" handle="E0D#1120018177" lsNamesIsLastItemOnBranch="S1" IsAlsConnectible="false" idCat="38" brand="ОПОП 124-7 24В" blckOptGrpId="Group_171" customDescr="" />
+        </ls>
+      </dev>
+      <dev uid="1008" positName="A1" SsUid="3" dwgId="-868607256" location="" ugoName="RC-UGO-MS-11" handle="D67#1115559175" ConnectedLsNames="RS1;RL1" lsNamesIsLastItemOnBranch="" IsAlsConnectible="false" idCat="54" brand="R3-МС-Е" blckOptGrpId="Group_1008" customDescr="">
+        <ls type="interface_eth" lsName="RS1" userlsName="RS1" SsUid="2" isVirt="false" hasTopRing="false">
+          <dev uid="28" positName="PC1" SsUid="1" dwgId="-868607256" location="" ugoName="RC-UGO-PC-02" handle="E35#1120142178" lsNamesIsLastItemOnBranch="RS1" IsAlsConnectible="false" idCat="79" brand="Персональный компьютер с FireSec Оперативная задача" blckOptGrpId="Group_28" customDescr="" />
+        </ls>
+      </dev>
+      <dev uid="26" positName="BI1" SsUid="9" dwgId="-868607256" location="" ugoName="RC-UGO-BKI-02" handle="D28#1115452173" lsNamesIsLastItemOnBranch="P1" IsAlsConnectible="false" idCat="4" brand="R3-Рубеж-БИУ" blckOptGrpId="Group_26" customDescr="" />
+    </ls>
+  </ls_tree>
+  <autonom_tree />
+</RubezhCADTree>

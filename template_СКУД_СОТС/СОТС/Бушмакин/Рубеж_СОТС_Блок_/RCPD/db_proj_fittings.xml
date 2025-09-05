@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentList>
+  <Equipment uid="10010" cvt_article="$$$20011" idCat="202" type="unit" brand="Узел" positType="incr" name="Узел" ugoName="RC-UGO-UNIT-01" blckOptGrpId="Group_10010" handle="CED#1115204172" positText="Узел " id="Узел 1" distance="0" isBorder="True" dwgId="-868607256" />
+  <Equipment uid="10010" cvt_article="$$$20011" idCat="202" type="unit" brand="Узел" positType="incr" name="Узел" ugoName="RC-UGO-UNIT-01" blckOptGrpId="Group_10010" handle="CE8#1115151171" positText="Узел " id="Узел 1" distance="0" isBorder="False" dwgId="-868607256" />
+</EquipmentList>
